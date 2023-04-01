@@ -10,7 +10,7 @@ ROOT=${CUR_DIR}
 
 export PYTHONPATH=${ROOT}:${PYTHONPATH}
 
-${python} $@
+python $@
 
 
 end_time=`date +%Y%m%d%H%M%S`
