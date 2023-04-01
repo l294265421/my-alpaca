@@ -1,12 +1,14 @@
 # my-alpaca
 try alpaca
 
-## Step By Step
-### Apply LLaMA models
+## Apply LLaMA models
 - Fill [google form](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform)
 
-### Finetune
-- [finetune](my_alpaca/my_alpaca_colab/finetune.ipynb)
+## Step By Step
+### Colab
+- [finetune](my_alpaca/colab/finetune.ipynb)
+
+### Autodl
 
 ## References
 
