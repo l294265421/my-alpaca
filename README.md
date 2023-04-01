@@ -6,7 +6,7 @@ try alpaca
 - Fill [google form](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform)
 
 ### Finetune
-- [finetune](https://colab.research.google.com/drive/1jG2RrhReUVVsLcYj5d-3wU2hzK26KHkl)
+- [finetune](my_alpaca/my_alpaca_colab/finetune.ipynb)
 
 ## References
 
