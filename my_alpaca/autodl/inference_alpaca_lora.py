@@ -114,6 +114,7 @@ def main(
         return prompter.get_response(output)
 
     while True:
+        print()
         instruction = input("Instruction: ")
         if instruction == 'quit':
             break
@@ -122,7 +123,6 @@ def main(
         result = evaluate(instruction, input=text)
         print('response:')
         print(result)
-        print()
 
     """
     # testing code for readme
