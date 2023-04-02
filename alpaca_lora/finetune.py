@@ -29,7 +29,7 @@ def train(
     # model/data params
     base_model: str = "decapoda-research/llama-7b-hf",  # the only required argument
     data_path: str = "yahma/alpaca-cleaned",
-    output_dir: str = "./lora-alpaca",
+    output_dir: str = "./lora-alpaca_v2",
     # training hyperparams
     batch_size: int = 128,
     micro_batch_size: int = 8,
