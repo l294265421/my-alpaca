@@ -10,8 +10,10 @@ try alpaca
   - nohup sh run.sh my_alpaca/autodl/finetune.py > autodl.log 2>&1 &
 - [inference_llama](my_alpaca/autodl/inference_llama.py)
   - sh run.sh my_alpaca/autodl/inference_llama.py
+  ![](./figures/autodl_llama.png)
 - [inference_alpaca_lora](my_alpaca/autodl/inference_alpaca_lora.py)
   - sh run.sh my_alpaca/autodl/inference_alpaca_lora.py
+  ![](./figures/autodl_llama_lora.png)
 
 ## References
 
