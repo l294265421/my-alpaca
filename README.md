@@ -1,9 +1,6 @@
 # my-alpaca
 try alpaca
 
-## Apply LLaMA models
-- Fill [google form](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform)
-
 ## Step By Step
 ### Colab (Free colab is too slow to perform one epoch)
 - [finetune](my_alpaca/colab/finetune.ipynb)
