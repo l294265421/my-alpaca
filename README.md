@@ -5,7 +5,7 @@ try alpaca
 ### Colab (Free colab is too slow to perform one epoch)
 - [finetune](my_alpaca/colab/finetune.ipynb)
 
-### Autodl
+### [Autodl](https://www.autodl.com/home)
 - [filetune](my_alpaca/autodl/finetune.py)
   - nohup sh run.sh my_alpaca/autodl/finetune.py > autodl.log 2>&1 &
 - [inference_llama](my_alpaca/autodl/inference_llama.py)
@@ -14,6 +14,8 @@ try alpaca
 - [inference_alpaca_lora](my_alpaca/autodl/inference_alpaca_lora.py)
   - sh run.sh my_alpaca/autodl/inference_alpaca_lora.py
   ![](./figures/autodl_llama_lora.png)
+- Tips
+  - Autodl的网速特别慢，没法下llama，只能慢慢从本地传。制作了镜像，包含了llama模型，有需要的话，可以留下autodl账号，我在平台上分享（貌似只能指定账号分享）。
 
 ## References
 
