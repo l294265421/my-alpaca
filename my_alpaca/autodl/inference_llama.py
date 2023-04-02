@@ -105,7 +105,7 @@ def main(
         result = evaluate(instruction, input=text)
         print('response:')
         print(result)
-
+        print()
 
     """
     # testing code for readme
