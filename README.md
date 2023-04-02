@@ -10,6 +10,7 @@ try alpaca
 
 ### Autodl
 - [filetune](my_alpaca/autodl/finetune.py)
+  - nohup sh run.sh my_alpaca/autodl/finetune.py > autodl.log 2>&1 &
 - [inference_llama](my_alpaca/autodl/inference_llama.py)
 - [inference_alpaca_lora](my_alpaca/autodl/inference_alpaca_lora.py)
 

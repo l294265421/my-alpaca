@@ -114,11 +114,11 @@ def main(
         return prompter.get_response(output)
 
     while True:
-        instruction = input("Instruction:")
+        instruction = input("Instruction: ")
         if instruction == 'quit':
             break
 
-        text = input("Input:")
+        text = input("Input: ")
         result = evaluate(instruction, input=text)
         print('response:')
         print(result)
