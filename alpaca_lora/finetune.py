@@ -32,19 +32,16 @@ def train(
     output_dir: str = "./lora-alpaca",
     # training hyperparams
     batch_size: int = 128,
-    micro_batch_size: int = 4,
-    num_epochs: int = 1,
+    micro_batch_size: int = 8,
+    num_epochs: int = 3,
     learning_rate: float = 3e-4,
-    cutoff_len: int = 256,
+    cutoff_len: int = 512,
     val_set_size: int = 2000,
     # lora hyperparams
-    lora_r: int = 8,
+    lora_r: int = 16,
     lora_alpha: int = 16,
     lora_dropout: float = 0.05,
-    lora_target_modules: List[str] = [
-        "q_proj",
-        "v_proj",
-    ],
+    lora_target_modules: List[str] = ['q_proj', 'k_proj', 'v_proj', 'o_proj'],
     # llm hyperparams
     train_on_inputs: bool = True,  # if False, masks out inputs in loss
     group_by_length: bool = False,  # faster, but produces an odd training loss curve
