@@ -5,10 +5,13 @@ try alpaca
 - Fill [google form](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform)
 
 ## Step By Step
-### Colab
+### Colab (Free colab is too slow to perform one epoch)
 - [finetune](my_alpaca/colab/finetune.ipynb)
 
 ### Autodl
+- [filetune](my_alpaca/autodl/finetune.py)
+- [inference_llama](my_alpaca/autodl/inference_llama.py)
+- [inference_alpaca_lora](my_alpaca/autodl/inference_alpaca_lora.py)
 
 ## References
 

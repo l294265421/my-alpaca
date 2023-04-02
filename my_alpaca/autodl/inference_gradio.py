@@ -8,7 +8,7 @@ import transformers
 from peft import PeftModel
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
 
-from utils.prompter import Prompter
+from alpaca_lora.utils.prompter import Prompter
 
 if torch.cuda.is_available():
     device = "cuda"
@@ -148,7 +148,7 @@ def main(
         ],
         title="🦙🌲 Alpaca-LoRA",
         description="Alpaca-LoRA is a 7B-parameter LLaMA model finetuned to follow instructions. It is trained on the [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) dataset and makes use of the Huggingface LLaMA implementation. For more information, please visit [the project's website](https://github.com/tloen/alpaca-lora).",  # noqa: E501
-    ).launch(server_name="0.0.0.0", share=share_gradio)
+    ).launch(server_name=server_name, share=share_gradio)
     # Old testing code follows.
 
     """

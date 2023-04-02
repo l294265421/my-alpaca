@@ -8,7 +8,7 @@ import transformers
 from peft import PeftModel
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
 
-from utils.prompter import Prompter
+from alpaca_lora.utils.prompter import Prompter
 
 if torch.cuda.is_available():
     device = "cuda"
@@ -25,10 +25,7 @@ except:  # noqa: E722
 def main(
     load_8bit: bool = False,
     base_model: str = "decapoda-research/llama-7b-hf",
-    lora_weights: str = "tloen/alpaca-lora-7b",
     prompt_template: str = "",  # The prompt template to use, will default to alpaca.
-    server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
-    share_gradio: bool = False,
 ):
     base_model = base_model or os.environ.get("BASE_MODEL", "")
     assert (
@@ -44,31 +41,15 @@ def main(
             torch_dtype=torch.float16,
             device_map="auto",
         )
-        model = PeftModel.from_pretrained(
-            model,
-            lora_weights,
-            torch_dtype=torch.float16,
-        )
     elif device == "mps":
         model = LlamaForCausalLM.from_pretrained(
             base_model,
             device_map={"": device},
             torch_dtype=torch.float16,
         )
-        model = PeftModel.from_pretrained(
-            model,
-            lora_weights,
-            device_map={"": device},
-            torch_dtype=torch.float16,
-        )
     else:
         model = LlamaForCausalLM.from_pretrained(
             base_model, device_map={"": device}, low_cpu_mem_usage=True
-        )
-        model = PeftModel.from_pretrained(
-            model,
-            lora_weights,
-            device_map={"": device},
         )
 
     # unwind broken decapoda-research config
@@ -115,41 +96,16 @@ def main(
         output = tokenizer.decode(s)
         return prompter.get_response(output)
 
-    gr.Interface(
-        fn=evaluate,
-        inputs=[
-            gr.components.Textbox(
-                lines=2,
-                label="Instruction",
-                placeholder="Tell me about alpacas.",
-            ),
-            gr.components.Textbox(lines=2, label="Input", placeholder="none"),
-            gr.components.Slider(
-                minimum=0, maximum=1, value=0.1, label="Temperature"
-            ),
-            gr.components.Slider(
-                minimum=0, maximum=1, value=0.75, label="Top p"
-            ),
-            gr.components.Slider(
-                minimum=0, maximum=100, step=1, value=40, label="Top k"
-            ),
-            gr.components.Slider(
-                minimum=1, maximum=4, step=1, value=4, label="Beams"
-            ),
-            gr.components.Slider(
-                minimum=1, maximum=2000, step=1, value=128, label="Max tokens"
-            ),
-        ],
-        outputs=[
-            gr.inputs.Textbox(
-                lines=5,
-                label="Output",
-            )
-        ],
-        title="🦙🌲 Alpaca-LoRA",
-        description="Alpaca-LoRA is a 7B-parameter LLaMA model finetuned to follow instructions. It is trained on the [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) dataset and makes use of the Huggingface LLaMA implementation. For more information, please visit [the project's website](https://github.com/tloen/alpaca-lora).",  # noqa: E501
-    ).launch(server_name="0.0.0.0", share=share_gradio)
-    # Old testing code follows.
+    while True:
+        instruction = input("Instruction:")
+        if instruction == 'quit':
+            break
+
+        text = input("Input:")
+        result = evaluate(instruction, input=text)
+        print('response:')
+        print(result)
+
 
     """
     # testing code for readme
