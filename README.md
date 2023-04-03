@@ -1,7 +1,7 @@
 # my-alpaca
 try alpaca
 
-## Step By Step
+## Step by Step
 ### Colab (Free colab is too slow to perform one epoch)
 - [finetune](my_alpaca/colab/finetune.ipynb)
 
