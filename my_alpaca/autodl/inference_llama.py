@@ -74,7 +74,7 @@ def main(
         max_new_tokens=512,
         **kwargs,
     ):
-        prompt = instruction
+        prompt = prompter.generate_prompt(instruction, input)
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
         generation_config = GenerationConfig(
