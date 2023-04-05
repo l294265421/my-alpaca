@@ -25,7 +25,6 @@ except:  # noqa: E722
 def main(
     load_8bit: bool = False,
     base_model: str = "decapoda-research/llama-7b-hf",
-    lora_weights: str = "./lora-alpaca",
     prompt_template: str = "",  # The prompt template to use, will default to alpaca.
     server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
     share_gradio: bool = True,
@@ -44,31 +43,15 @@ def main(
             torch_dtype=torch.float16,
             device_map="auto",
         )
-        model = PeftModel.from_pretrained(
-            model,
-            lora_weights,
-            torch_dtype=torch.float16,
-        )
     elif device == "mps":
         model = LlamaForCausalLM.from_pretrained(
             base_model,
             device_map={"": device},
             torch_dtype=torch.float16,
         )
-        model = PeftModel.from_pretrained(
-            model,
-            lora_weights,
-            device_map={"": device},
-            torch_dtype=torch.float16,
-        )
     else:
         model = LlamaForCausalLM.from_pretrained(
             base_model, device_map={"": device}, low_cpu_mem_usage=True
-        )
-        model = PeftModel.from_pretrained(
-            model,
-            lora_weights,
-            device_map={"": device},
         )
 
     # unwind broken decapoda-research config
@@ -91,9 +74,10 @@ def main(
         top_k=40,
         num_beams=4,
         max_new_tokens=512,
+        do_sample=False,
         **kwargs,
     ):
-        prompt = prompter.generate_prompt(instruction, input)
+        prompt = instruction
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
         generation_config = GenerationConfig(
@@ -101,6 +85,7 @@ def main(
             top_p=top_p,
             top_k=top_k,
             num_beams=num_beams,
+            do_sample=do_sample,
             **kwargs,
         )
         with torch.no_grad():
@@ -113,7 +98,7 @@ def main(
             )
         s = generation_output.sequences[0]
         output = tokenizer.decode(s)
-        return prompter.get_response(output)
+        return output
 
     gr.Interface(
         fn=evaluate,
@@ -139,6 +124,7 @@ def main(
             gr.components.Slider(
                 minimum=1, maximum=2000, step=1, value=128, label="Max tokens"
             ),
+            gr.components.Checkbox(value=False, label='Do sample')
         ],
         outputs=[
             gr.inputs.Textbox(

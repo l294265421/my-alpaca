@@ -89,6 +89,7 @@ def main(
         top_k=40,
         num_beams=4,
         max_new_tokens=512,
+        do_sample=False,
         **kwargs,
     ):
         prompt = prompter.generate_prompt(instruction, input)
@@ -99,6 +100,7 @@ def main(
             top_p=top_p,
             top_k=top_k,
             num_beams=num_beams,
+            do_sample=do_sample,
             **kwargs,
         )
         with torch.no_grad():
