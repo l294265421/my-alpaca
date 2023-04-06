@@ -97,11 +97,15 @@ def main(
         prompt = prompter.generate_prompt(instruction, input)
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
+        # https://huggingface.co/blog/how-to-generate
+        # https://huggingface.co/docs/transformers/generation_strategies
+        # https://medium.com/mlearning-ai/softmax-temperature-5492e4007f71
         generation_config = GenerationConfig(
             temperature=temperature,
             top_p=top_p,
             top_k=top_k,
             num_beams=num_beams,
+            do_sample=do_sample,
             **kwargs,
         )
         with torch.no_grad():

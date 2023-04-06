@@ -96,7 +96,7 @@ def main(
             )
         s = generation_output.sequences[0]
         output = tokenizer.decode(s)
-        return output
+        return output[len(prompt):]
 
     while True:
         print()
