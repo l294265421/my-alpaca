@@ -94,6 +94,7 @@ def main(
         do_sample=False,
         **kwargs,
     ):
+        print('do_sample: %s' % str(do_sample))
         prompt = prompter.generate_prompt(instruction, input)
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
