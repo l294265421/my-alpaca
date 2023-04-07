@@ -72,7 +72,7 @@ def main(
         top_k=40,
         num_beams=4,
         max_new_tokens=512,
-        do_sample=False,
+        do_sample=True,
         **kwargs,
     ):
         prompt = instruction
