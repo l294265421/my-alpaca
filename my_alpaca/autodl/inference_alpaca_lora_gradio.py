@@ -109,19 +109,16 @@ def main(
         #     do_sample=do_sample,
         #     **kwargs,
         # )
-        generation_config = GenerationConfig(
-            temperature=temperature,
-            top_k=0,
-            do_sample=do_sample,
-            **kwargs,
-        )
         with torch.no_grad():
             generation_output = model.generate(
                 input_ids=input_ids,
-                generation_config=generation_config,
+                # generation_config=generation_config,
                 return_dict_in_generate=True,
                 output_scores=True,
                 max_new_tokens=max_new_tokens,
+                temperature=temperature,
+                top_k=0,
+                do_sample=do_sample,
             )
         s = generation_output.sequences[0]
         output = tokenizer.decode(s)
