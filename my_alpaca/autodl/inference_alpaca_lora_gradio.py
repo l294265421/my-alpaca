@@ -111,9 +111,7 @@ def main(
         # )
         generation_config = GenerationConfig(
             temperature=temperature,
-            top_p=0,
             top_k=0,
-            num_beams=1,
             do_sample=do_sample,
             **kwargs,
         )
