@@ -101,11 +101,19 @@ def main(
         # https://huggingface.co/blog/how-to-generate
         # https://huggingface.co/docs/transformers/generation_strategies
         # https://medium.com/mlearning-ai/softmax-temperature-5492e4007f71
+        # generation_config = GenerationConfig(
+        #     temperature=temperature,
+        #     top_p=top_p,
+        #     top_k=top_k,
+        #     num_beams=num_beams,
+        #     do_sample=do_sample,
+        #     **kwargs,
+        # )
         generation_config = GenerationConfig(
             temperature=temperature,
-            top_p=top_p,
-            top_k=top_k,
-            num_beams=num_beams,
+            top_p=0,
+            top_k=0,
+            num_beams=1,
             do_sample=do_sample,
             **kwargs,
         )
