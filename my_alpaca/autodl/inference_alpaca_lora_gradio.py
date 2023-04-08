@@ -101,14 +101,14 @@ def main(
         # https://huggingface.co/blog/how-to-generate
         # https://huggingface.co/docs/transformers/generation_strategies
         # https://medium.com/mlearning-ai/softmax-temperature-5492e4007f71
-        # generation_config = GenerationConfig(
-        #     temperature=temperature,
-        #     top_p=top_p,
-        #     top_k=top_k,
-        #     num_beams=num_beams,
-        #     do_sample=do_sample,
-        #     **kwargs,
-        # )
+        generation_config = GenerationConfig(
+            temperature=temperature,
+            top_p=top_p,
+            top_k=top_k,
+            num_beams=num_beams,
+            do_sample=do_sample,
+            **kwargs,
+        )
         with torch.no_grad():
             generation_output = model.generate(
                 input_ids=input_ids,
@@ -116,9 +116,7 @@ def main(
                 return_dict_in_generate=True,
                 output_scores=True,
                 max_new_tokens=max_new_tokens,
-                temperature=temperature,
-                top_k=0,
-                do_sample=do_sample,
+                temperature=temperature
             )
         s = generation_output.sequences[0]
         output = tokenizer.decode(s)

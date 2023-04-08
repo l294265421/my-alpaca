@@ -89,7 +89,7 @@ def main(
         top_k=40,
         num_beams=4,
         max_new_tokens=512,
-        do_sample=True,
+        do_sample=False,
         **kwargs,
     ):
         prompt = prompter.generate_prompt(instruction, input)
