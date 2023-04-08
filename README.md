@@ -31,12 +31,18 @@ try alpaca
 - [Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality](https://vicuna.lmsys.org/)
     - [FastChat](https://github.com/lm-sys/FastChat)
     - [Chat with Open Large Language Models](https://chat.lmsys.org/)
+- [ChatGPT-Techniques-Introduction-for-Everyone](https://github.com/l294265421/ChatGPT-Techniques-Introduction-for-Everyone)
 
 ### Repositories
 - [llama](https://github.com/facebookresearch/llama)
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca#fine-tuning)
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
 - [FastChat](https://github.com/lm-sys/FastChat)
+- [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA)
+- [BELLE](https://github.com/LianjiaTech/BELLE)
+- [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
+- [Luotuo-Chinese-LLM](https://github.com/LC1332/Luotuo-Chinese-LLM)
+- [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)
 - [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA)
 
 ### Papers
