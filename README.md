@@ -56,3 +56,6 @@ try alpaca
 - 2023-Chatdoctor: A medical chat model fine-tuned on llama model using medical domain knowledge.
 - 2023-Recalpaca: Low-rank llama instruct-tuning for recommendation
 - 2023-Llama-adapter: Efficient fine-tuning of language models with zero-init attention
+
+### Models
+- [LLaMA](https://huggingface.co/decapoda-research)
