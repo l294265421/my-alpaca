@@ -39,11 +39,12 @@ try alpaca
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
 - [FastChat](https://github.com/lm-sys/FastChat)
 - [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA)
+  - [训练中文LLaMA大规模语言模型](https://zhuanlan.zhihu.com/p/612752963)
+  - [ChatLLaMA：用指令微调训练中文对话大模型](https://zhuanlan.zhihu.com/p/616748134)
 - [BELLE](https://github.com/LianjiaTech/BELLE)
 - [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
 - [Luotuo-Chinese-LLM](https://github.com/LC1332/Luotuo-Chinese-LLM)
 - [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)
-- [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA)
 - [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
 - [Japanese-Alpaca-LoRA](https://github.com/kunishou/Japanese-Alpaca-LoRA)
 - [thai-buffala-lora-7b-v0-1](https://huggingface.co/Thaweewat/thai-buffala-lora-7b-v0-1)
@@ -59,3 +60,7 @@ try alpaca
 
 ### Models
 - [LLaMA](https://huggingface.co/decapoda-research)
+
+### Datasets
+- [大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP](https://github.com/brightmart/nlp_chinese_corpus)
+- [CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集](https://github.com/ydli-ai/CSL)
