@@ -64,3 +64,4 @@ try alpaca
 ### Datasets
 - [大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP](https://github.com/brightmart/nlp_chinese_corpus)
 - [CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集](https://github.com/ydli-ai/CSL)
+- [ChatAlpaca](https://github.com/cascip/ChatAlpaca)
