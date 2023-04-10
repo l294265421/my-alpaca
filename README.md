@@ -48,6 +48,7 @@ try alpaca
 - [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
 - [Japanese-Alpaca-LoRA](https://github.com/kunishou/Japanese-Alpaca-LoRA)
 - [thai-buffala-lora-7b-v0-1](https://huggingface.co/Thaweewat/thai-buffala-lora-7b-v0-1)
+- [Alpaca-LoRA-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
 
 ### Papers
 - 2020-Integer Quantization for Deep Learning Inference Principles and Empirical Evaluation [[paper](./papers/2020-Integer%20Quantization%20for%20Deep%20Learning%20Inference%20Principles%20and%20Empirical%20Evaluation.pdf)]
