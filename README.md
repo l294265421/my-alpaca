@@ -32,6 +32,10 @@ try alpaca
     - [FastChat](https://github.com/lm-sys/FastChat)
     - [Chat with Open Large Language Models](https://chat.lmsys.org/)
 - [ChatGPT-Techniques-Introduction-for-Everyone](https://github.com/l294265421/ChatGPT-Techniques-Introduction-for-Everyone)
+- [Koala: A Dialogue Model for Academic Research](https://bair.berkeley.edu/blog/2023/04/03/koala/)
+    - [koala_data_pipeline](https://github.com/young-geng/koala_data_pipeline)
+    - [Koala Evaluation Set](https://github.com/arnav-gudibande/koala-test-set)
+    - [pretrained model](https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl)
 
 ### Repositories
 - [llama](https://github.com/facebookresearch/llama)
