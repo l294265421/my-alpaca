@@ -84,3 +84,6 @@ try alpaca
 - [ChatGPT](https://chat.openai.com/)
 - [文心一言](https://yiyan.baidu.com/)
 - [通义千问](https://tongyi.aliyun.com/)
+
+### Interfaces
+- [ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT/)
