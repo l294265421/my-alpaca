@@ -78,6 +78,7 @@ try alpaca
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+- [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
 
 ### Online Services
 - [ChatGPT](https://chat.openai.com/)
