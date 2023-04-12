@@ -75,3 +75,8 @@ try alpaca
 
 ### Tools
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+
+### Online Services
+- [ChatGPT](https://chat.openai.com/)
+- [文心一言](https://yiyan.baidu.com/)
+- [通义千问](https://tongyi.aliyun.com/)
