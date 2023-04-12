@@ -55,6 +55,7 @@ try alpaca
 - [multi-turn-alpaca](https://github.com/l294265421/multi-turn-alpaca)
 - [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
     - [ChatGLM-webui](https://github.com/Akegarasu/ChatGLM-webui)
+    - [ChatGLM：千亿基座的对话模型开启内测](https://chatglm.cn/blog)
 
 ### Papers
 - 2020-Integer Quantization for Deep Learning Inference Principles and Empirical Evaluation [[paper](./papers/2020-Integer%20Quantization%20for%20Deep%20Learning%20Inference%20Principles%20and%20Empirical%20Evaluation.pdf)]
