@@ -68,6 +68,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ### Models
 - [LLaMA](https://huggingface.co/decapoda-research)
+- [GLM](https://github.com/THUDM/GLM)
 
 ### Datasets
 - [大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP](https://github.com/brightmart/nlp_chinese_corpus)
