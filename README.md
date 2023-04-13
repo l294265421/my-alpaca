@@ -66,6 +66,11 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - 2023-Recalpaca: Low-rank llama instruct-tuning for recommendation
 - 2023-Llama-adapter: Efficient fine-tuning of language models with zero-init attention
 
+#### Neural Text Generation (For Better Generation)
+- 2020-ICLR-Neural text generation with unlikelihood training [[paper](./papers/2020-ICLR-Neural%20text%20generation%20with%20unlikelihood%20training.pdf)]
+- 2021-ICLR-Mirostat- a neural text decoding algorithm that directly controls perplexity [[paper](./papers/2021-ICLR-Mirostat-%20a%20neural%20text%20decoding%20algorithm%20that%20directly%20controls%20perplexity.pdf)]
+- 2022-NIPS-A Contrastive Framework for Neural Text Generation [[paper](./papers/2022-NIPS-A%20Contrastive%20Framework%20for%20Neural%20Text%20Generation.pdf)]
+
 ### Models
 - [LLaMA](https://huggingface.co/decapoda-research)
 - [GLM](https://github.com/THUDM/GLM)
