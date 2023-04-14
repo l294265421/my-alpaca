@@ -35,6 +35,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
     - [koala_data_pipeline](https://github.com/young-geng/koala_data_pipeline)
     - [Koala Evaluation Set](https://github.com/arnav-gudibande/koala-test-set)
     - [pretrained model](https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl)
+- 分布式训练
+  - [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
 
 ### Repositories
 - [llama](https://github.com/facebookresearch/llama)
@@ -80,6 +82,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - [大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP](https://github.com/brightmart/nlp_chinese_corpus)
 - [CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集](https://github.com/ydli-ai/CSL)
 - [ChatAlpaca](https://github.com/cascip/ChatAlpaca)
+- [中文图书语料集合](https://github.com/FudanNLPLAB/CBook-150K)
 
 ### Tools
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
