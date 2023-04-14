@@ -65,6 +65,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - 2023-Chatdoctor: A medical chat model fine-tuned on llama model using medical domain knowledge.
 - 2023-Recalpaca: Low-rank llama instruct-tuning for recommendation
 - 2023-Llama-adapter: Efficient fine-tuning of language models with zero-init attention
+- 2023-RRHF: Rank Responses to Align Language Models with Human Feedback without tears [[paper](./papers/2023-RRHF-%20Rank%20Responses%20to%20Align%20Language%20Models%20with%20Human%20Feedback%20without%20tears.pdf)] [[code](https://github.com/GanjinZero/RRHF)]
 
 #### Neural Text Generation (For Better Generation)
 - 2020-ICLR-Neural text generation with unlikelihood training [[paper](./papers/2020-ICLR-Neural%20text%20generation%20with%20unlikelihood%20training.pdf)]
