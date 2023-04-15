@@ -37,6 +37,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
     - [pretrained model](https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl)
 - 分布式训练
   - [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
+  - [浅谈Tensorflow分布式架构：ring all-reduce算法](https://zhuanlan.zhihu.com/p/69797852)
+  - [Optimizer state sharding (ZeRO)](https://zhuanlan.zhihu.com/p/394064174)
 
 ### Repositories
 - [llama](https://github.com/facebookresearch/llama)
