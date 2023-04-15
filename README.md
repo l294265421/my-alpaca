@@ -37,8 +37,12 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - [中文图书语料集合](https://github.com/FudanNLPLAB/CBook-150K)
 
 #### For Fine-tuning
-- [ChatAlpaca](https://github.com/cascip/ChatAlpaca)
-- [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) [[paper](https://arxiv.org/pdf/2304.03277.pdf)]
+- ChatAlpaca
+  - [GitHub](https://github.com/cascip/ChatAlpaca)
+- GPT-4-LLM
+  - [GitHub](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
+  - [paper](https://arxiv.org/pdf/2304.03277.pdf)
+  - [site](https://instruction-tuning-with-gpt-4.github.io/)
 
 ### Fine-tuning
 
