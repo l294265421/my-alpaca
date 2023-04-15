@@ -43,9 +43,16 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 ### Fine-tuning
 
 #### General
-- [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca#fine-tuning)
+- [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+    - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca#fine-tuning)
+- [Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality](https://vicuna.lmsys.org/)
+    - [FastChat](https://github.com/lm-sys/FastChat)
+    - [Chat with Open Large Language Models](https://chat.lmsys.org/)
+- [Koala: A Dialogue Model for Academic Research](https://bair.berkeley.edu/blog/2023/04/03/koala/)
+    - [koala_data_pipeline](https://github.com/young-geng/koala_data_pipeline)
+    - [Koala Evaluation Set](https://github.com/arnav-gudibande/koala-test-set)
+    - [pretrained model](https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl)
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
-- [FastChat](https://github.com/lm-sys/FastChat)
 - [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
     - [ChatGLM-webui](https://github.com/Akegarasu/ChatGLM-webui)
     - [ChatGLM：千亿基座的对话模型开启内测](https://chatglm.cn/blog)
@@ -104,17 +111,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - 2022-NIPS-A Contrastive Framework for Neural Text Generation [[paper](./papers/2022-NIPS-A%20Contrastive%20Framework%20for%20Neural%20Text%20Generation.pdf)]
 
 #### Articles
-- [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html)
-    - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca#fine-tuning)
-- [GPT fine-tune实战： 训练我自己的 ChatGPT](https://zhuanlan.zhihu.com/p/616504594?utm_source=wechat_session&utm_medium=social&utm_oi=556103293550534656)
-- [Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality](https://vicuna.lmsys.org/)
-    - [FastChat](https://github.com/lm-sys/FastChat)
-    - [Chat with Open Large Language Models](https://chat.lmsys.org/)
 - [ChatGPT-Techniques-Introduction-for-Everyone](https://github.com/l294265421/ChatGPT-Techniques-Introduction-for-Everyone)
-- [Koala: A Dialogue Model for Academic Research](https://bair.berkeley.edu/blog/2023/04/03/koala/)
-    - [koala_data_pipeline](https://github.com/young-geng/koala_data_pipeline)
-    - [Koala Evaluation Set](https://github.com/arnav-gudibande/koala-test-set)
-    - [pretrained model](https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl)
 - 分布式训练
   - [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
   - [浅谈Tensorflow分布式架构：ring all-reduce算法](https://zhuanlan.zhihu.com/p/69797852)
