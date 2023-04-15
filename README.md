@@ -100,3 +100,6 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ### Interfaces
 - [ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT/)
+
+### Evaluation
+- [LLMZoo](https://github.com/FreedomIntelligence/LLMZoo) a project that provides data, models, and evaluation benchmark for large language models.
