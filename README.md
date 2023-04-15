@@ -31,10 +31,14 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - [GLM](https://github.com/THUDM/GLM)
 
 ### Datasets
+#### For Pre-training
 - [大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP](https://github.com/brightmart/nlp_chinese_corpus)
 - [CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集](https://github.com/ydli-ai/CSL)
-- [ChatAlpaca](https://github.com/cascip/ChatAlpaca)
 - [中文图书语料集合](https://github.com/FudanNLPLAB/CBook-150K)
+
+#### For Fine-tuning
+- [ChatAlpaca](https://github.com/cascip/ChatAlpaca)
+- [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) [[paper](https://arxiv.org/pdf/2304.03277.pdf)]
 
 ### Fine-tuning
 
