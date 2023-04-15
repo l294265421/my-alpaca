@@ -89,9 +89,9 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ### Tools
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+  - [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
-- [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
 
 ### Online Services
 - [ChatGPT](https://chat.openai.com/)
