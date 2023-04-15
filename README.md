@@ -1,5 +1,6 @@
 # my-alpaca
-Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://github.com/l294265421/multi-turn-alpaca) and the version further trained with RLHF (Reinforcement Learning with Human Feedback) is at [alpaca-rlhf](https://github.com/l294265421/alpaca-rlhf).
+Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://github.com/l294265421/multi-turn-alpaca) and the version further trained with RLHF (Reinforcement Learning with Human Feedback) is at [alpaca-rlhf](https://github.com/l294265421/alpaca-rlhf). The trained multi-turn alpaca is amazing.
+
 ## Step by Step
 ### Colab (Free colab is too slow to perform one epoch)
 - [finetune](my_alpaca/colab/finetune.ipynb)
