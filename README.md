@@ -37,9 +37,9 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 ### Datasets
 #### For Pre-training
 - 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP
-  - [GitHub]((https://github.com/brightmart/nlp_chinese_corpus))
+  - [GitHub](https://github.com/brightmart/nlp_chinese_corpus)
 - CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集
-  - [GitHub]((https://github.com/ydli-ai/CSL))
+  - [GitHub](https://github.com/ydli-ai/CSL)
 - 中文图书语料集合
   - [GitHub](https://github.com/FudanNLPLAB/CBook-150K)
 
