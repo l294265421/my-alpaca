@@ -73,6 +73,10 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [Model](https://huggingface.co/Thaweewat/thai-buffala-lora-7b-v0-1)
 - multi-turn-alpaca
   - [GitHub](https://github.com/l294265421/multi-turn-alpaca)
+- Open-Assistant
+  - [Site](https://open-assistant.io/zh)
+  - [GitHub](https://github.com/LAION-AI/Open-Assistant)
+  - [Paper](./papers/2023-OpenAssistant%20Conversations%20-%20Democratizing%20Large%20Language%20Model%20Alignment.pdf)
 
 #### Chinese
 - Chinese-ChatLLaMA
