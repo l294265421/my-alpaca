@@ -27,8 +27,12 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 ## References
 
 ### Pre-trained Language Models
-- [LLaMA](https://huggingface.co/decapoda-research)
-- [GLM](https://github.com/THUDM/GLM)
+- LLaMA
+  - [Paper](./papers/2023-LLaMA-%20Open%20and%20Efficient%20Foundation%20Language%20Models.pdf)
+  - [Model](https://huggingface.co/decapoda-research)
+- GLM
+  - [GitHub](https://github.com/THUDM/GLM)
+  - [Paper](./papers/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
 
 ### Datasets
 #### For Pre-training
