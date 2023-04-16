@@ -32,60 +32,79 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ### Datasets
 #### For Pre-training
-- [大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP](https://github.com/brightmart/nlp_chinese_corpus)
-- [CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集](https://github.com/ydli-ai/CSL)
-- [中文图书语料集合](https://github.com/FudanNLPLAB/CBook-150K)
+- 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP
+  - [GitHub]((https://github.com/brightmart/nlp_chinese_corpus))
+- CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集
+  - [GitHub]((https://github.com/ydli-ai/CSL))
+- 中文图书语料集合
+  - [GitHub](https://github.com/FudanNLPLAB/CBook-150K)
 
 #### For Fine-tuning
 - ChatAlpaca
   - [GitHub](https://github.com/cascip/ChatAlpaca)
 - GPT-4-LLM
   - [GitHub](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
-  - [paper](https://arxiv.org/pdf/2304.03277.pdf)
-  - [site](https://instruction-tuning-with-gpt-4.github.io/)
+  - [Paper](https://arxiv.org/pdf/2304.03277.pdf)
+  - [Site](https://instruction-tuning-with-gpt-4.github.io/)
 
 ### Fine-tuning
 
 #### General
-- [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html)
-    - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca#fine-tuning)
-- [Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality](https://vicuna.lmsys.org/)
-    - [FastChat](https://github.com/lm-sys/FastChat)
-    - [Chat with Open Large Language Models](https://chat.lmsys.org/)
-- [Koala: A Dialogue Model for Academic Research](https://bair.berkeley.edu/blog/2023/04/03/koala/)
-    - [koala_data_pipeline](https://github.com/young-geng/koala_data_pipeline)
-    - [Koala Evaluation Set](https://github.com/arnav-gudibande/koala-test-set)
-    - [pretrained model](https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl)
-- [alpaca-lora](https://github.com/tloen/alpaca-lora)
-- [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
-    - [ChatGLM-webui](https://github.com/Akegarasu/ChatGLM-webui)
-    - [ChatGLM：千亿基座的对话模型开启内测](https://chatglm.cn/blog)
-- [Firefly](https://github.com/yangjianxin1/Firefly)
-- [thai-buffala-lora-7b-v0-1](https://huggingface.co/Thaweewat/thai-buffala-lora-7b-v0-1)
-- [multi-turn-alpaca](https://github.com/l294265421/multi-turn-alpaca)
+- Alpaca: A Strong, Replicable Instruction-Following Model
+  - [Site](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+  - [GitHub](https://github.com/tatsu-lab/stanford_alpaca#fine-tuning)
+- Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality
+  - [GitHub](https://github.com/lm-sys/FastChat)
+  - [Site](https://vicuna.lmsys.org/)
+  - [Online Demo](https://chat.lmsys.org/)
+- Koala: A Dialogue Model for Academic Research
+  - [Blog](https://bair.berkeley.edu/blog/2023/04/03/koala/)
+  - GitHub
+      - [Koala_data_pipeline](https://github.com/young-geng/koala_data_pipeline)
+      - [Koala Evaluation Set](https://github.com/arnav-gudibande/koala-test-set)
+- alpaca-lora
+  - [GitHub](https://github.com/tloen/alpaca-lora)
+- ChatGLM-6B
+  - [GitHub](https://github.com/THUDM/ChatGLM-6B)
+  - [Blog](https://chatglm.cn/blog)
+- Firefly
+  - [GitHub](https://github.com/yangjianxin1/Firefly)
+- thai-buffala-lora-7b-v0-1
+  - [Model](https://huggingface.co/Thaweewat/thai-buffala-lora-7b-v0-1)
+- multi-turn-alpaca
+  - [GitHub](https://github.com/l294265421/multi-turn-alpaca)
 
 #### Chinese
-- [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA)
-  - [训练中文LLaMA大规模语言模型](https://zhuanlan.zhihu.com/p/612752963)
-  - [ChatLLaMA：用指令微调训练中文对话大模型](https://zhuanlan.zhihu.com/p/616748134)
-- [BELLE](https://github.com/LianjiaTech/BELLE)
-- [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
-- [Luotuo-Chinese-LLM](https://github.com/LC1332/Luotuo-Chinese-LLM)
-- [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)
-- [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
+- Chinese-ChatLLaMA
+  - [GitHub](https://github.com/ydli-ai/Chinese-ChatLLaMA)
+  - Blog
+    - [训练中文LLaMA大规模语言模型](https://zhuanlan.zhihu.com/p/612752963)
+    - [ChatLLaMA：用指令微调训练中文对话大模型](https://zhuanlan.zhihu.com/p/616748134)
+- BELLE
+  - [GitHub](https://github.com/LianjiaTech/BELLE)
+- Chinese-LLaMA-Alpaca
+  - [GitHub](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
+- Luotuo-Chinese-LLM
+  - [GitHub](https://github.com/LC1332/Luotuo-Chinese-LLM)
+- Chinese-Vicuna
+  - [GitHub](https://github.com/Facico/Chinese-Vicuna)
+- Chinese-alpaca-lora
+  - [GitHub](https://github.com/LC1332/Chinese-alpaca-lora)
 
 #### Japanese
-- [Japanese-Alpaca-LoRA](https://github.com/kunishou/Japanese-Alpaca-LoRA)
+- Japanese-Alpaca-LoRA
+  - [GitHub](https://github.com/kunishou/Japanese-Alpaca-LoRA)
 
 #### Medical
-- 2023-Chatdoctor: A medical chat model fine-tuned on llama model using medical domain knowledge.
+- 2023-Chatdoctor: A medical chat model fine-tuned on llama model using medical domain knowledge
 
 #### Recommendation
 - 2023-Recalpaca: Low-rank llama instruct-tuning for recommendation
 
 ### Evaluation
-- [LLMZoo](https://github.com/FreedomIntelligence/LLMZoo) a project that provides data, models, and evaluation benchmark for large language models.
-
+- LLMZoo: a project that provides data, models, and evaluation benchmark for large language models.
+  - [GitHub](https://github.com/FreedomIntelligence/LLMZoo)
+  
 ### Tools
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
   - [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
@@ -94,6 +113,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ### Interfaces
 - [ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT/)
+- [ChatGLM-webui](https://github.com/Akegarasu/ChatGLM-webui)
 
 ### Products
 - [ChatGPT](https://chat.openai.com/)
