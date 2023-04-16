@@ -123,6 +123,13 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - [ChatGPT](https://chat.openai.com/)
 - [文心一言](https://yiyan.baidu.com/)
 - [通义千问](https://tongyi.aliyun.com/)
+- AgentGPT
+  - [GitHub](https://github.com/reworkd/AgentGPT)
+- HuggingGPT
+  - [GitHub](https://github.com/microsoft/JARVIS)
+  - [Paper](https://arxiv.org/abs/2303.17580)
+- AutoGPT
+  - [GitHub](https://github.com/Significant-Gravitas/Auto-GPT)
 
 ### Preliminary
 #### Papers
