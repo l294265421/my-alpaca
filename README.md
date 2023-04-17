@@ -118,6 +118,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 ### Tools
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
   - [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
+    - [debug-deepspeed-chat](https://github.com/l294265421/debug-deepspeed-chat)
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
