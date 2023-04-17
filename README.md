@@ -109,6 +109,10 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - 华驼(HuaTuo): 基于中文医学知识的LLaMA微调模型
   - [GitHub](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
 
+#### Law
+- LawGPT_zh：中文法律大模型（獬豸）
+  - [GitHub](https://github.com/LiuHC0428/LAW-GPT)
+
 #### Recommendation
 - 2023-Recalpaca: Low-rank llama instruct-tuning for recommendation
 
