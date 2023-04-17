@@ -104,7 +104,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [GitHub](https://github.com/kunishou/Japanese-Alpaca-LoRA)
 
 #### Medical
-- 2023-Chatdoctor: A medical chat model fine-tuned on llama model using medical domain knowledge
+- 2023-ChatDoctor: A medical chat model fine-tuned on llama model using medical domain knowledge
+  - [Paper](./papers/2023-ChatDoctor-%20A%20Medical%20Chat%20Model%20Fine-tuned%20on%20LLaMA%20Model%20using%20Medical%20Domain%20Knowledge.pdf)
 - 华驼(HuaTuo): 基于中文医学知识的LLaMA微调模型
   - [GitHub](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
 
