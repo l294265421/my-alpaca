@@ -142,6 +142,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [Paper](https://arxiv.org/abs/2303.17580)
 - AutoGPT
   - [GitHub](https://github.com/Significant-Gravitas/Auto-GPT)
+- MiniGPT-4
+  - [GitHub](https://github.com/Vision-CAIR/MiniGPT-4)
 
 ### Preliminary
 #### Papers
