@@ -144,6 +144,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [GitHub](https://github.com/Significant-Gravitas/Auto-GPT)
 - MiniGPT-4
   - [GitHub](https://github.com/Vision-CAIR/MiniGPT-4)
+  - [Paper](./papers/2023-MiniGPT_4.pdf)
 - ShareGPT
   - [GitHub](https://github.com/domeccleston/sharegpt)
 
