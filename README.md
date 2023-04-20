@@ -20,9 +20,6 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   ![](./figures/autodl_llama_lora.png)
 - [inference_alpaca_lora_gradio](my_alpaca/autodl/inference_alpaca_lora_gradio.py)
     - sh run.sh my_alpaca/autodl/inference_alpaca_lora_gradio.py
-    
-- Tips
-  - Autodl的网速特别慢，没法下llama，只能慢慢从本地传。制作了镜像，包含了llama模型，有需要的话，可以留下autodl账号，我在平台上分享（貌似只能指定账号分享）。
 
 ## References
 
