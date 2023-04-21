@@ -20,9 +20,6 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   ![](./figures/autodl_llama_lora.png)
 - [inference_alpaca_lora_gradio](my_alpaca/autodl/inference_alpaca_lora_gradio.py)
     - sh run.sh my_alpaca/autodl/inference_alpaca_lora_gradio.py
-    
-- Tips
-  - Autodl的网速特别慢，没法下llama，只能慢慢从本地传。制作了镜像，包含了llama模型，有需要的话，可以留下autodl账号，我在平台上分享（貌似只能指定账号分享）。
 
 ## References
 
@@ -173,8 +170,9 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [浅谈Tensorflow分布式架构：ring all-reduce算法](https://zhuanlan.zhihu.com/p/69797852)
   - [Optimizer state sharding (ZeRO)](https://zhuanlan.zhihu.com/p/394064174)
     - [ZeRO-Offload](https://www.deepspeed.ai/tutorials/zero-offload/)
-  - [图解大模型训练之：流水线并行（Pipeline Parallelism），以Gpipe为例](https://zhuanlan.zhihu.com/p/613196255)
-  - [图解大模型训练之：数据并行上篇(DP, DDP与ZeRO)](https://zhuanlan.zhihu.com/p/617133971)
-  - [图解大模型训练之：数据并行下篇( DeepSpeed ZeRO，零冗余优化)](https://zhuanlan.zhihu.com/p/618865052)
+  - 图解大模型训练
+    - [图解大模型训练之：流水线并行（Pipeline Parallelism），以Gpipe为例](https://zhuanlan.zhihu.com/p/613196255)
+    - [图解大模型训练之：数据并行上篇(DP, DDP与ZeRO)](https://zhuanlan.zhihu.com/p/617133971)
+    - [图解大模型训练之：数据并行下篇( DeepSpeed ZeRO，零冗余优化)](https://zhuanlan.zhihu.com/p/618865052)
 
 ### Other Resources
