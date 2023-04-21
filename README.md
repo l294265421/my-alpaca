@@ -30,6 +30,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - GLM
   - [GitHub](https://github.com/THUDM/GLM)
   - [Paper](./papers/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
+- BloombergGPT
+  - [Paper](https://arxiv.org/abs/2303.17564)
 
 ### Datasets
 #### For Pre-training
