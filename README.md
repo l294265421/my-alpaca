@@ -43,6 +43,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [Paper](https://arxiv.org/pdf/2304.07987v1.pdf)
 - 医疗数据集
   - [GitHub1](https://github.com/NLPxiaoxu/LLM-FineTune)
+- 金融数据
+  - [FinNLP-GitHub](https://github.com/AI4Finance-Foundation/FinNLP)
 
 #### For Fine-tuning
 - ChatAlpaca
