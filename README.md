@@ -44,6 +44,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [GitHub](https://github.com/FudanNLPLAB/CBook-150K)
 - Chinese Open Instruction Generalist (COIG)
   - [Paper](https://arxiv.org/pdf/2304.07987v1.pdf)
+- 医疗数据集
+  - [GitHub1](https://github.com/NLPxiaoxu/LLM-FineTune)
 
 #### For Fine-tuning
 - ChatAlpaca
