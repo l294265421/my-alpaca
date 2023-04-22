@@ -30,6 +30,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - GLM
   - [GitHub](https://github.com/THUDM/GLM)
   - [Paper](./papers/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
+- Lawformer
+  - [GitHub](https://github.com/thunlp/LegalPLMs)
 
 ### Datasets
 #### For Pre-training
@@ -43,6 +45,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [Paper](https://arxiv.org/pdf/2304.07987v1.pdf)
 - 医疗数据集
   - [GitHub1](https://github.com/NLPxiaoxu/LLM-FineTune)
+- WuDaoCorpora
+  - [Paper](https://www.sciencedirect.com/science/article/pii/S2666651021000152)
 
 #### For Fine-tuning
 - ChatAlpaca
@@ -127,6 +131,7 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
     - [debug-deepspeed-chat](https://github.com/l294265421/debug-deepspeed-chat)
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+- [trlx](https://github.com/CarperAI/trlx)
 
 ### Interfaces
 - [ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT/)
