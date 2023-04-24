@@ -21,43 +21,24 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - [inference_alpaca_lora_gradio](my_alpaca/autodl/inference_alpaca_lora_gradio.py)
     - sh run.sh my_alpaca/autodl/inference_alpaca_lora_gradio.py
 
-## References
-
-### Pre-trained Language Models
+## Pre-train
+### Models
 - LLaMA
   - [Paper](./papers/2023-LLaMA-%20Open%20and%20Efficient%20Foundation%20Language%20Models.pdf)
   - [Model](https://huggingface.co/decapoda-research)
 - GLM
-  - [GitHub](https://github.com/THUDM/GLM)
   - [Paper](./papers/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
+  - [GitHub](https://github.com/THUDM/GLM)
 - BloombergGPT
   - [Paper](https://arxiv.org/abs/2303.17564)
 
-### Datasets
-#### For Pre-training
-- 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP
-  - [GitHub](https://github.com/brightmart/nlp_chinese_corpus)
-- CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集
-  - [GitHub](https://github.com/ydli-ai/CSL)
-- 中文图书语料集合
-  - [GitHub](https://github.com/FudanNLPLAB/CBook-150K)
-- Chinese Open Instruction Generalist (COIG)
-  - [Paper](https://arxiv.org/pdf/2304.07987v1.pdf)
-- 医疗数据集
-  - [GitHub1](https://github.com/NLPxiaoxu/LLM-FineTune)
-- 金融数据
-  - [FinNLP-GitHub](https://github.com/AI4Finance-Foundation/FinNLP)
+### Methods
+#### Max Sequence Length
 
-#### For Fine-tuning
-- ChatAlpaca
-  - [GitHub](https://github.com/cascip/ChatAlpaca)
-- GPT-4-LLM
-  - [GitHub](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
-  - [Paper](https://arxiv.org/pdf/2304.03277.pdf)
-  - [Site](https://instruction-tuning-with-gpt-4.github.io/)
+#### Position
 
-### Fine-tuning
-
+## Fine-tune
+### Models
 #### General
 - Alpaca: A Strong, Replicable Instruction-Following Model
   - [Site](https://crfm.stanford.edu/2023/03/13/alpaca.html)
@@ -121,22 +102,54 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 #### Recommendation
 - 2023-Recalpaca: Low-rank llama instruct-tuning for recommendation
 
-### Evaluation
+### Methods
+- 2021-LoRA- Low-Rank Adaptation of Large Language Models [[paper](./papers/2021-LoRA-%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models.pdf)]
+- 2023-RRHF: Rank Responses to Align Language Models with Human Feedback without tears [[paper](./papers/2023-RRHF-%20Rank%20Responses%20to%20Align%20Language%20Models%20with%20Human%20Feedback%20without%20tears.pdf)] [[code](https://github.com/GanjinZero/RRHF)]
+
+## Integrating External Data
+### Methods
+- langchain
+  - GitHub
+    - [langchain](https://github.com/hwchase17/langchain)
+    - [Chinese-LangChain](https://github.com/yanqiangmiffy/Chinese-LangChain)
+
+## Dataset
+### For Pre-training
+- RedPajama-Data
+  - [GitHub](https://github.com/togethercomputer/RedPajama-Data)
+  - [RedPajama-Data-1T-HuggingFace](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
+- 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP
+  - [GitHub](https://github.com/brightmart/nlp_chinese_corpus)
+- CSL: A Large-scale Chinese Scientific Literature Dataset 中文科学文献数据集
+  - [GitHub](https://github.com/ydli-ai/CSL)
+- 中文图书语料集合
+  - [GitHub](https://github.com/FudanNLPLAB/CBook-150K)
+- Chinese Open Instruction Generalist (COIG)
+  - [Paper](https://arxiv.org/pdf/2304.07987v1.pdf)
+- 医疗数据集
+  - [GitHub1](https://github.com/NLPxiaoxu/LLM-FineTune)
+- 金融数据
+  - [FinNLP-GitHub](https://github.com/AI4Finance-Foundation/FinNLP)
+  - [SmoothNLP 金融文本数据集(公开) | Public Financial Datasets for NLP Researches](https://github.com/smoothnlp/FinancialDatasets)  
+
+### For SFT
+- ChatAlpaca
+  - [GitHub](https://github.com/cascip/ChatAlpaca)
+- GPT-4-LLM
+  - [GitHub](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
+  - [Paper](https://arxiv.org/pdf/2304.03277.pdf)
+  - [Site](https://instruction-tuning-with-gpt-4.github.io/)
+
+### For Reward Model
+
+### Methods
+- 2022-SELF-INSTRUCT- Aligning Language Model with Self Generated Instructions [[paper](./papers/2022-SELF-INSTRUCT-%20Aligning%20Language%20Model%20with%20Self%20Generated%20Instructions.pdf)]
+
+## Evaluation
 - LLMZoo: a project that provides data, models, and evaluation benchmark for large language models.
   - [GitHub](https://github.com/FreedomIntelligence/LLMZoo)
-  
-### Tools
-- [DeepSpeed](https://github.com/microsoft/DeepSpeed)
-  - [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
-    - [debug-deepspeed-chat](https://github.com/l294265421/debug-deepspeed-chat)
-- [ColossalAI](https://github.com/hpcaitech/ColossalAI)
-- [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
-### Interfaces
-- [ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT/)
-- [ChatGLM-webui](https://github.com/Akegarasu/ChatGLM-webui)
-
-### Products
+## Products
 - [ChatGPT](https://chat.openai.com/)
 - [文心一言](https://yiyan.baidu.com/)
 - [通义千问](https://tongyi.aliyun.com/)
@@ -153,24 +166,20 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - ShareGPT
   - [GitHub](https://github.com/domeccleston/sharegpt)
 
-### Preliminary
-#### Papers
-- 2020-Integer Quantization for Deep Learning Inference Principles and Empirical Evaluation [[paper](./papers/2020-Integer%20Quantization%20for%20Deep%20Learning%20Inference%20Principles%20and%20Empirical%20Evaluation.pdf)]
-- 2021-LoRA- Low-Rank Adaptation of Large Language Models [[paper](./papers/2021-LoRA-%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models.pdf)]
-- 2022-SELF-INSTRUCT- Aligning Language Model with Self Generated Instructions [[paper](./papers/2022-SELF-INSTRUCT-%20Aligning%20Language%20Model%20with%20Self%20Generated%20Instructions.pdf)]
-- 2023-LLaMA- Open and Efficient Foundation Language Models [[paper](./papers/2023-LLaMA-%20Open%20and%20Efficient%20Foundation%20Language%20Models.pdf)]
-- 2023-Llama-adapter: Efficient fine-tuning of language models with zero-init attention
-- 2023-RRHF: Rank Responses to Align Language Models with Human Feedback without tears [[paper](./papers/2023-RRHF-%20Rank%20Responses%20to%20Align%20Language%20Models%20with%20Human%20Feedback%20without%20tears.pdf)] [[code](https://github.com/GanjinZero/RRHF)]
+## Tools
+- [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+  - [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
+- [ColossalAI](https://github.com/hpcaitech/ColossalAI)
+- [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 
-##### Neural Text Generation (For Better Generation)
+## Related Topics
+### Neural Text Generation
 - 2020-ICLR-Neural text generation with unlikelihood training [[paper](./papers/2020-ICLR-Neural%20text%20generation%20with%20unlikelihood%20training.pdf)]
 - 2021-ICLR-Mirostat- a neural text decoding algorithm that directly controls perplexity [[paper](./papers/2021-ICLR-Mirostat-%20a%20neural%20text%20decoding%20algorithm%20that%20directly%20controls%20perplexity.pdf)]
 - 2022-NIPS-A Contrastive Framework for Neural Text Generation [[paper](./papers/2022-NIPS-A%20Contrastive%20Framework%20for%20Neural%20Text%20Generation.pdf)]
 
-#### Articles
-- [ChatGPT-Techniques-Introduction-for-Everyone](https://github.com/l294265421/ChatGPT-Techniques-Introduction-for-Everyone)
-- 分布式训练
-  - [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
+### Distributed Training
+- [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
   - [浅谈Tensorflow分布式架构：ring all-reduce算法](https://zhuanlan.zhihu.com/p/69797852)
   - [Optimizer state sharding (ZeRO)](https://zhuanlan.zhihu.com/p/394064174)
     - [ZeRO-Offload](https://www.deepspeed.ai/tutorials/zero-offload/)
@@ -179,4 +188,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
     - [图解大模型训练之：数据并行上篇(DP, DDP与ZeRO)](https://zhuanlan.zhihu.com/p/617133971)
     - [图解大模型训练之：数据并行下篇( DeepSpeed ZeRO，零冗余优化)](https://zhuanlan.zhihu.com/p/618865052)
 
-### Other Resources
+### Quantization
+- 2020-Integer Quantization for Deep Learning Inference Principles and Empirical Evaluation [[paper](./papers/2020-Integer%20Quantization%20for%20Deep%20Learning%20Inference%20Principles%20and%20Empirical%20Evaluation.pdf)]
+
+## Other
+- [如何为GPT/LLM模型添加额外知识？](https://www.zhihu.com/question/591935281/answer/2979220793)
