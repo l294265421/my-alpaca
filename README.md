@@ -135,10 +135,8 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 ### For SFT
 - ChatAlpaca
   - [GitHub](https://github.com/cascip/ChatAlpaca)
-- GPT-4-LLM
-  - [GitHub](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
-  - [Paper](https://arxiv.org/pdf/2304.03277.pdf)
-  - [Site](https://instruction-tuning-with-gpt-4.github.io/)
+- InstructionZoo
+  - [GitHub](https://github.com/FreedomIntelligence/InstructionZoo)
 
 ### For Reward Model
 
