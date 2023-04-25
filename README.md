@@ -23,11 +23,39 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ## Pre-train
 ### Models
+- T5
+  - [Paper](./papers/pre-train/models/2020-JMLR-Exploring%20the%20Limits%20of%20Transfer%20Learning%20with%20a%20Unified%20Text-to-Text%20Transformer.pdf)
+- GPT
+  - Paper
+    - [GPT](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+    - [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+    - [GPT-3](https://arxiv.org/pdf/2005.14165.pdf)
+- LaMDA
+  - [Paper](https://arxiv.org/pdf/2201.08239.pdf)
+- JURASSIC-1
+  - [Paper](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
+- MT-NLG
+  - [Paper](https://arxiv.org/pdf/2201.11990.pdf)
+- ERNIE
+  - Paper
+    - [ERNIE](https://arxiv.org/pdf/1904.09223.pdf)
+    - [ERNIE 2.0](https://arxiv.org/pdf/1907.12412.pdf)
+    - [ERNIE 3.0](https://arxiv.org/pdf/2107.02137.pdf)
+- Gopher
+  - [Paper](https://storage.googleapis.com/deepmind-media/research/language-research/Training%20Gopher.pdf)
+- Chinchilla
+  - [Paper](https://arxiv.org/pdf/2203.15556.pdf)
+- PaLM
+  - [Paper](https://arxiv.org/pdf/2204.02311.pdf)
+- OPT
+  - [Paper](https://arxiv.org/pdf/2205.01068.pdf)
+- BLOOM
+  - [Paper](https://arxiv.org/pdf/2211.05100.pdf)
 - LLaMA
-  - [Paper](./papers/2023-LLaMA-%20Open%20and%20Efficient%20Foundation%20Language%20Models.pdf)
+  - [Paper](./papers/pre-train/models/2023-LLaMA-%20Open%20and%20Efficient%20Foundation%20Language%20Models.pdf)
   - [Model](https://huggingface.co/decapoda-research)
 - GLM
-  - [Paper](./papers/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
+  - [Paper](./papers/pre-train/models/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
   - [GitHub](https://github.com/THUDM/GLM)
 - BloombergGPT
   - [Paper](https://arxiv.org/abs/2303.17564)
