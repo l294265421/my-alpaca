@@ -23,23 +23,160 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ## Pre-train
 ### Models
+- T5
+  - [Paper](./papers/pre-train/models/2020-JMLR-Exploring%20the%20Limits%20of%20Transfer%20Learning%20with%20a%20Unified%20Text-to-Text%20Transformer.pdf)
+  - Architecture
+    - Encoder-Decoder
+  - Datasets
+    - C4
+- GPT
+  - Paper
+    - [GPT](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+    - [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+    - [GPT-3](https://arxiv.org/pdf/2005.14165.pdf)
+- GPT-Neo
+- GPT-J-6B
+- Megatron-11B
+- Pangu-a-13B
+- FairSeq
+- GLaM
+  - [Paper](./papers/pre-train/models/2022-ICML-GLaM-%20Efficient%20Scaling%20of%20Language%20Models%20with%20Mixture-of-Experts.pdf)
+- LaMDA
+  - [Paper](./papers/pre-train/models/2022-LaMDA-%20Language%20Models%20for%20Dialog%20Applications.pdf)
+- JURASSIC-1
+  - [Paper](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
+- MT-NLG
+  - [Paper](https://arxiv.org/pdf/2201.11990.pdf)
+- ERNIE
+  - Paper
+    - [ERNIE](https://arxiv.org/pdf/1904.09223.pdf)
+    - [ERNIE 2.0](https://arxiv.org/pdf/1907.12412.pdf)
+    - [ERNIE 3.0](./papers/pre-train/models/2021-ERNIE%203.0-%20LARGE-SCALE%20KNOWLEDGE%20ENHANCED%20PRE-TRAINING%20FOR%20LANGUAGE%20UNDERSTANDING%20AND%20GENERATION.pdf)
+- Gopher
+  - [Paper](./papers/pre-train/models/2021-Scaling%20Language%20Models-%20Methods,%20Analysis%20&%20Insights%20from%20Training%20Gopher.pdf)
+  - Conclusion
+    - Gains from scale are largest in areas such as reading comprehension, fact-checking, and the identification of toxic language, but logical and mathematical reasoning see less benefit.
+- Chinchilla
+  - [Paper](./papers/pre-train/models/2022-Training%20Compute-Optimal%20Large%20Language%20Models.pdf)
+  - Conclusion
+    - We find that current large language models are significantly under trained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant.
+    - we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled.
+- PaLM
+  - [Paper](./papers/pre-train/models/2022-PaLM-%20Scaling%20Language%20Modeling%20with%20Pathways.pdf)
+  - Architecture
+    - Decoder
+  - Datasets
+    - a mixture of filtered webpages, books, Wikipedia, news articles, source code, and social media conversations
+    - based on the datasets used to train LaMDA and GLaM
+- OPT
+  - [Paper](./papers/pre-train/models/2022-OPT-%20Open%20Pre-trained%20Transformer%20Language%20Models.pdf)
+  - Architecture
+    - Decoder
+  - Datasets
+    - RoBERTa datasets
+    - Pile
+    - PushShift.io Reddit
+- Gpt-neox
+  - [Paper](./papers/pre-train/models/2022-Gpt-neox-20b-%20An%20open-source%20autoregressive%20language%20model.pdf)
+  - [GitHub](https://github.com/EleutherAI/gpt-neox)
+  - Architecture
+    - Decoder
+  - Datasets
+    - Pile
+- BLOOM
+  - [Paper](./papers/pre-train/models/2023-BLOOM-%20A%20176B-Parameter%20Open-Access%20Multilingual%20Language%20Model.pdf)
+  - Architecture
+    - Decoder
+  - Datasets
+    - the ROOTS corpus
 - LLaMA
-  - [Paper](./papers/2023-LLaMA-%20Open%20and%20Efficient%20Foundation%20Language%20Models.pdf)
+  - [Paper](./papers/pre-train/models/2023-LLaMA-%20Open%20and%20Efficient%20Foundation%20Language%20Models.pdf)
   - [Model](https://huggingface.co/decapoda-research)
+  - Architecture
+    - Decoder
+  - Datasets
+    - English CommonCrawl
+    - C4
+    - Github
+    - Wikipedia
+    - Gutenberg
+    - Books3 (Pile)
+    - ArXiv
+    - Stack Exchange
 - GLM
-  - [Paper](./papers/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
-  - [GitHub](https://github.com/THUDM/GLM)
+  - Paper
+    - 2022-ACL-GLM- General Language Model Pretraining with Autoregressive Blank Infilling [paper](./papers/pre-train/models/2022-ACL-GLM-%20General%20Language%20Model%20Pretraining%20with%20Autoregressive%20Blank%20Infilling.pdf)
+      - [GitHub](https://github.com/THUDM/GLM)
+    - 2023-ICLR-GLM-130B- An Open Bilingual Pre-trained Model [paper](./papers/pre-train/models/2023-ICLR-GLM-130B-%20An%20Open%20Bilingual%20Pre-trained%20Model.pdf)
+      - [GitHub](https://github.com/THUDM/GLM-130B)
+      - Architecture
+        - Autoregressive Blank Infilling
+      - Datasets
+        - Pile
+        - Wudao Corpora
+        - 250G Chinese corpora (including online forums, encyclopedia, and QA) we crawl from the web
 - BloombergGPT
-  - [Paper](https://arxiv.org/abs/2303.17564)
+  - [Paper](./papers/pre-train/models/2023-BloombergGPT-%20A%20Large%20Language%20Model%20for%20Finance.pdf)
+- MOSS
+  - [GitHub](https://github.com/OpenLMLab/MOSS)
+- OpenLLaMA: An Open Reproduction of LLaMA
+  - [GitHub](https://github.com/openlm-research/open_llama)
+  - Datasets
+    - RedPajama-Data
+      - [GitHub](https://github.com/togethercomputer/RedPajama-Data)
+      - [RedPajama-Data-1T-HuggingFace](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
+      - [Blog](https://www.together.xyz/blog/redpajama)
+- dolly
+  - [GitHub](https://github.com/databrickslabs/dolly)
 
 ### Methods
 #### Max Sequence Length
+- Blog
+  - [Transformer升级之路：7、长度外推性与局部注意力](https://spaces.ac.cn/archives/9431)
+- Paper
+  - 2023-Scaling Transformer to 1M tokens and beyond with RMT [[paper](./papers/pre-train/methods/max_sequence_length/2023-Scaling%20Transformer%20to%201M%20tokens%20and%20beyond%20with%20RMT.pdf)]
 
 #### Position
+- Rotary
+- ALiBi
+- Survey
+  - [让研究人员绞尽脑汁的Transformer位置编码](https://zhuanlan.zhihu.com/p/352898810)
+
+#### Normalization
+- RMSNorm
+- Layer Normalization
+  - Pre-LN
+  - Post-LN
+  - Sandwich-LN
+  - DeepNorm
+
+#### Activation Function
+- SwiGLU
+- GeLUs
+- Swish
+
+#### Tokenizer
+- BPE [paper](./papers/pre-train/methods/tokenizer/2016-ACL-Neural%20Machine%20Translation%20of%20Rare%20Words%20with%20Subword%20Units.pdf)
+
+#### Interpretability
+- [Transformer Circuits Thread](https://transformer-circuits.pub/)
+
+#### LR Scheduler
 
 ## Fine-tune
 ### Models
 #### General
+- T0
+  - [Paper](https://arxiv.org/pdf/2110.08207.pdf)
+- FLAN
+  - [Paper](./papers/fine-tune/models/2022-iclr-FINETUNED%20LANGUAGE%20MODELS%20ARE%20ZERO-SHOT%20LEARNERS.pdf)
+  - [GitHub](https://github.com/google-research/flan)
+- Flan-LM
+  - [Paper](https://arxiv.org/pdf/2210.11416.pdf)
+- BLOOMZ & mT0
+  - [Paper](https://arxiv.org/pdf/2211.01786.pdf)
+- ChatGPT
+  - [Blog](https://openai.com/blog/chatgpt)
 - Alpaca: A Strong, Replicable Instruction-Following Model
   - [Site](https://crfm.stanford.edu/2023/03/13/alpaca.html)
   - [GitHub](https://github.com/tatsu-lab/stanford_alpaca#fine-tuning)
@@ -103,8 +240,19 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 - 2023-Recalpaca: Low-rank llama instruct-tuning for recommendation
 
 ### Methods
-- 2021-LoRA- Low-Rank Adaptation of Large Language Models [[paper](./papers/2021-LoRA-%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models.pdf)]
-- 2023-RRHF: Rank Responses to Align Language Models with Human Feedback without tears [[paper](./papers/2023-RRHF-%20Rank%20Responses%20to%20Align%20Language%20Models%20with%20Human%20Feedback%20without%20tears.pdf)] [[code](https://github.com/GanjinZero/RRHF)]
+
+#### RL
+- 2017-Proximal Policy Optimization Algorithms [[paper](./papers/fine-tune/methods/rl/2017-Proximal%20Policy%20Optimization%20Algorithms.pdf)]
+
+### peft 
+- 2021-LoRA- Low-Rank Adaptation of Large Language Models [[paper](./papers/fine-tune/methods/peft/2021-LoRA-%20Low-Rank%20Adaptation%20of%20Large%20Language%20Models.pdf)]
+
+### align
+- 2023-RRHF: Rank Responses to Align Language Models with Human Feedback without tears [[paper](./papers/fine-tune/methods/align/2023-RRHF-%20Rank%20Responses%20to%20Align%20Language%20Models%20with%20Human%20Feedback%20without%20tears.pdf)] [[code](https://github.com/GanjinZero/RRHF)]
+
+### Other
+- 2022-naacl-MetaICL- Learning to Learn In Context [[paper](./papers/fine-tune/methods/other/2022-naacl-MetaICL-%20Learning%20to%20Learn%20In%20Context.pdf)]
+- 2022-iclr-Multitask Prompted Training Enables Zero-Shot Task Generalization [[paper](./papers/fine-tune/methods/other/2022-iclr-Multitask%20Prompted%20Training%20Enables%20Zero-Shot%20Task%20Generalization.pdf)]
 
 ## Integrating External Data
 ### Methods
@@ -137,15 +285,38 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [GitHub](https://github.com/cascip/ChatAlpaca)
 - InstructionZoo
   - [GitHub](https://github.com/FreedomIntelligence/InstructionZoo)
+- [FlagInstruct](https://github.com/FlagOpen/FlagInstruct)
+- fnlp/moss-002-sft-data
+  - [Hugging Face Datasets](https://huggingface.co/datasets/fnlp/moss-002-sft-data)
 
 ### For Reward Model
 
 ### Methods
-- 2022-SELF-INSTRUCT- Aligning Language Model with Self Generated Instructions [[paper](./papers/2022-SELF-INSTRUCT-%20Aligning%20Language%20Model%20with%20Self%20Generated%20Instructions.pdf)]
+- 2022-SELF-INSTRUCT- Aligning Language Model with Self Generated Instructions [[paper](./papers/dataset/methods/2022-SELF-INSTRUCT-%20Aligning%20Language%20Model%20with%20Self%20Generated%20Instructions.pdf)]
 
 ## Evaluation
 - LLMZoo: a project that provides data, models, and evaluation benchmark for large language models.
   - [GitHub](https://github.com/FreedomIntelligence/LLMZoo)
+- 2023-Evaluating ChatGPT's Information Extraction Capabilities- An Assessment of Performance, Explainability, Calibration, and Faithfulness [paper](./papers/evaluation/2023-Evaluating%20ChatGPT's%20Information%20Extraction%20Capabilities-%20An%20Assessment%20of%20Performance,%20Explainability,%20Calibration,%20and%20Faithfulness.pdf)
+- 2023-Towards Better Instruction Following Language Models for Chinese- Investigating the Impact of Training Data and Evaluation [paper](./papers/evaluation/2023-Towards%20Better%20Instruction%20Following%20Language%20Models%20for%20Chinese-%20Investigating%20the%20Impact%20of%20Training%20Data%20and%20Evaluation.pdf)
+- [PandaLM](https://github.com/WeOpenML/PandaLM)
+- [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
+
+### Aspects
+- robustness
+- harmless
+- helpful
+- honest
+- Bias, Toxicity and Misinformation
+
+### 评估挑战
+- 已有的评估通常只用已有的常见NLP任务，海量的其它任务并没有评估，比如写邮件
+
+## Inference
+
+## Analysis
+- Pythia: Interpreting Autoregressive Transformers Across Time and Scale 
+  - [GitHub](https://github.com/EleutherAI/pythia)
 
 ## Products
 - [ChatGPT](https://chat.openai.com/)
@@ -169,12 +340,14 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
   - [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+- [trlx](https://github.com/CarperAI/trlx)
+- [trl](https://github.com/lvwerra/)
 
 ## Related Topics
 ### Neural Text Generation
-- 2020-ICLR-Neural text generation with unlikelihood training [[paper](./papers/2020-ICLR-Neural%20text%20generation%20with%20unlikelihood%20training.pdf)]
-- 2021-ICLR-Mirostat- a neural text decoding algorithm that directly controls perplexity [[paper](./papers/2021-ICLR-Mirostat-%20a%20neural%20text%20decoding%20algorithm%20that%20directly%20controls%20perplexity.pdf)]
-- 2022-NIPS-A Contrastive Framework for Neural Text Generation [[paper](./papers/2022-NIPS-A%20Contrastive%20Framework%20for%20Neural%20Text%20Generation.pdf)]
+- 2020-ICLR-Neural text generation with unlikelihood training [[paper](./papers/related-topics/neural_text_generation/2020-ICLR-Neural%20text%20generation%20with%20unlikelihood%20training.pdf)]
+- 2021-ICLR-Mirostat- a neural text decoding algorithm that directly controls perplexity [[paper](./papers/related-topics/neural_text_generation/2021-ICLR-Mirostat-%20a%20neural%20text%20decoding%20algorithm%20that%20directly%20controls%20perplexity.pdf)]
+- 2022-NIPS-A Contrastive Framework for Neural Text Generation [[paper](./papers/related-topics/neural_text_generation/2022-NIPS-A%20Contrastive%20Framework%20for%20Neural%20Text%20Generation.pdf)]
 
 ### Distributed Training
 - [Pytorch 分布式训练](https://zhuanlan.zhihu.com/p/76638962)
@@ -187,7 +360,14 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
     - [图解大模型训练之：数据并行下篇( DeepSpeed ZeRO，零冗余优化)](https://zhuanlan.zhihu.com/p/618865052)
 
 ### Quantization
-- 2020-Integer Quantization for Deep Learning Inference Principles and Empirical Evaluation [[paper](./papers/2020-Integer%20Quantization%20for%20Deep%20Learning%20Inference%20Principles%20and%20Empirical%20Evaluation.pdf)]
+- 2020-Integer Quantization for Deep Learning Inference Principles and Empirical Evaluation [[paper](./papers/related-topics/quantization/2020-Integer%20Quantization%20for%20Deep%20Learning%20Inference%20Principles%20and%20Empirical%20Evaluation.pdf)]
+- 2023-ICLR-GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers [[paer](./papers/related-topics/quantization/2023-ICLR-GPTQ-%20Accurate%20Post-Training%20Quantization%20for%20Generative%20Pre-trained%20Transformers.pdf)]
 
 ## Other
 - [如何为GPT/LLM模型添加额外知识？](https://www.zhihu.com/question/591935281/answer/2979220793)
+- [如何正确复现 Instruct GPT / RLHF?](https://zhuanlan.zhihu.com/p/622134699)
+- [ChatGPT在单个NLP数据集任务上比SOTA有多大提升？](https://www.zhihu.com/question/595938881)
+- [影响PPO算法性能的10个关键技巧（附PPO算法简洁Pytorch实现）](https://zhuanlan.zhihu.com/p/512327050)
+
+## Related Project
+- [try-large-models](https://github.com/l294265421/try-large-models)
