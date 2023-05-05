@@ -249,6 +249,10 @@ Try original alpaca. The multi-turn version is at [multi-turn-alpaca](https://gi
 
 ### align
 - 2023-RRHF: Rank Responses to Align Language Models with Human Feedback without tears [[paper](./papers/fine-tune/methods/align/2023-RRHF-%20Rank%20Responses%20to%20Align%20Language%20Models%20with%20Human%20Feedback%20without%20tears.pdf)] [[code](https://github.com/GanjinZero/RRHF)]
+- 2022-Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback [[paper](./papers/fine-tune/methods/align/2022-Training%20a%20Helpful%20and%20Harmless%20Assistant%20with%20Reinforcement%20Learning%20from%20Human%20Feedback.pdf)]
+- 2022-Training language models to follow instructions with human feedback [[paper](./papers/fine-tune/methods/align/2022-Training%20language%20models%20to%20follow%20instructions%20with%20human%20feedback.pdf)]
+- 2020-nips-Learning to summarize from human feedback [[paper](./papers/fine-tune/methods/align/2020-nips-Learning%20to%20summarize%20from%20human%20feedback.pdf)]
+- 2019-Fine-Tuning Language Models from Human Preferences [[paper](./papers/fine-tune/methods/align/2019-Fine-Tuning%20Language%20Models%20from%20Human%20Preferences.pdf)]
 
 ### Other
 - 2022-naacl-MetaICL- Learning to Learn In Context [[paper](./papers/fine-tune/methods/other/2022-naacl-MetaICL-%20Learning%20to%20Learn%20In%20Context.pdf)]
