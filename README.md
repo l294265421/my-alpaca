@@ -1,5 +1,5 @@
 # my-alpaca
-Reproduce alpaca
+Reproduce alpaca. Try the trained model [here](https://837f206562b1a66abe.gradio.live/).
 
 ## Relate Repositories
 - [my-llm](https://github.com/l294265421/my-llm) all about large language models
