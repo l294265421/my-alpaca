@@ -1,5 +1,5 @@
 # my-alpaca
-Reproduce alpaca. Try the trained model [here](https://837f206562b1a66abe.gradio.live/). A case:
+Reproduce alpaca. A case of the trained model:
 ![](./figures/chat.png)
 
 ## Relate Repositories
